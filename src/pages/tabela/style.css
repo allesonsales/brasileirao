@@ -1,0 +1,86 @@
+#tabela table {
+    border-collapse: collapse;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    font-size: .7rem;
+    width: 100%;
+    color: var(--texto-sistema);
+
+    td img {
+        width: 20px;
+        height: 20px;
+        margin-right: .5rem ;
+    }
+    
+    th, td {
+        border: solid 1px #ddd;
+        padding: .2rem;
+    }
+    
+    td:nth-child(-n+2) {
+        text-align: left;
+        white-space: nowrap;
+        vertical-align: middle;
+    }
+    
+    td:nth-child(n+3):nth-child(-n+10) {
+        width: 2rem;
+    }
+    
+    tr {
+        margin: 1rem;
+    }
+    
+    tbody tr:nth-child(-n+5) td:first-child::after {
+        content: " ↑"; 
+        font-size: 1rem; 
+        color: #3de505; 
+        margin-left: 1px; 
+    }
+    
+    tbody tr:nth-last-child(-n+4) td:first-child::after {
+        content: " ↓"; 
+        font-size: 1rem; 
+        color: #FF5722; 
+        margin-left: 1px; 
+    }
+}
+
+
+@media (min-width: 768px) {
+#tabela table {
+    font-size: 1rem;
+    margin-top: 7rem;
+    
+    th, td {
+       padding: 1rem;
+   }
+ }
+
+}
+
+
+@media (min-width: 992px) {
+    #tabela table {
+        margin-top: 7rem;
+        font-size: 1rem;
+
+        td img {
+            width: 40px;
+            height: 40px;
+        }
+        
+         th, td {
+            padding: 1rem;
+        }
+    
+        tbody tr:nth-child(-n+5) td:first-child::after {
+            font-size: 1.5rem; 
+        }
+        
+        tbody tr:nth-last-child(-n+4) td:first-child::after {
+            font-size: 1.5rem; 
+        }
+     }
+
+}

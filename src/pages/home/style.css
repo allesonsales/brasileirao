@@ -1,0 +1,38 @@
+.backgroundHome {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom, #ffffff 70%, var(--primeira-cor) 90%);
+    z-index: -5;
+}
+
+.backgroundHome img {
+    width: 50%;
+    transform: translate(65%, 300%) rotate(15deg);
+    opacity: 0.1;
+}
+.footerAviso {
+    display: none;
+    color: var(--texto-sistema);
+}
+
+p {
+    color: var(--fonte-escura);
+    font-weight: 600;
+}
+
+@media (min-width: 768px) {
+    .footerAviso {
+        display: block;
+        height: 20px;
+        position: fixed;
+        bottom: 15px;
+        transform: translate(-8%, -35%);
+    }
+
+    .backgroundHome {
+        display: none;
+    }
+}

@@ -1,0 +1,51 @@
+.backgroundModal {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 50;
+}
+
+.boxSelect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #0CCA4A;
+    border-radius: 15px;
+    width: 80vw;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.boxSelect img {
+    width: 100px;
+    height: 100px;
+}
+
+.boxSelect span {
+    font-size: 1.5rem;
+    color: #FCFAFA;
+}
+
+.boxSelect p {
+    color: #FCFAFA;
+}
+
+select {
+    padding: .5rem;
+    color: #0CCA4A;
+    border-radius: 5px;
+    outline: #0CCA4A;
+}
+
+@media (min-width:768px) {
+    .boxSelect {
+        width: 40vw;
+    }
+}

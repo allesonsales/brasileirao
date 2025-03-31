@@ -1,0 +1,92 @@
+.gridPartidas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+}
+
+.partida {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: .5rem;
+    background-color: white;
+    border: solid 1px var(--primeira-cor);
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+}
+
+.partida small {
+    color: var(--fonte-escura);
+}
+
+.partida span {
+    font-size: .8rem;
+    color: var(--primeira-cor);
+    font-weight: 600;
+}
+
+.partida small:last-child {
+    margin-top: 1rem;
+}
+
+.times {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 100%;
+}
+
+.times span {
+    color: black;
+    line-height: 15px;
+}
+
+.casa, .visitante {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
+.placar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 40%;
+}
+
+.placar i {
+    font-size: 1.5rem;
+    color: var(--fonte-escura)
+}
+
+.placar span {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.partida img {
+    width: 40px;
+    height: 40px;
+}
+
+@media (min-width: 768px) {
+    .gridPartidas {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .gridPartidas {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

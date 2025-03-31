@@ -1,0 +1,208 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.Bahia {
+  --primeira-cor: #005093;
+  --segunda-cor: #df3018;
+  --terceira-cor: black;
+  --fonte-neutra: white;
+  --fonte-neutra-hover: #df3018;
+  --posicoes: #df3018;
+  --fonte-escura: black;
+  --texto-sistema: rgb(43, 43, 43);
+}
+
+.Botafogo {
+  --primeira-cor: black;
+  --segunda-cor: white;
+  --terceira-cor: black;
+  --fonte-neutra: white;
+  --fonte-neutra-hover: rgb(228, 228, 228);
+  --posicoes: black;
+  --fonte-escura: black;
+  --texto-sistema: rgb(43, 43, 43);
+}
+
+.Ceara {
+  --primeira-cor: black;
+  --segunda-cor: white;
+  --terceira-cor: black;
+  --fonte-neutra: white;
+  --fonte-neutra-hover: rgb(228, 228, 228);
+  --posicoes: black;
+  --fonte-escura: black;
+  --texto-sistema: rgb(43, 43, 43);
+}
+
+.Corinthians {
+  --primeira-cor: black;
+  --segunda-cor: white;
+  --terceira-cor: black;
+  --fonte-neutra: white;
+  --fonte-neutra-hover: rgb(228, 228, 228);
+  --posicoes: black;
+  --fonte-escura: black;
+  --texto-sistema: rgb(43, 43, 43);
+}
+
+.Cruzeiro {
+  --primeira-cor: #005aa0;
+  --segunda-cor: white;
+  --terceira-cor: black;
+  --fonte-neutra: white;
+  --fonte-neutra-hover: rgb(228, 228, 228);
+  --posicoes: black;
+  --fonte-escura: #005aa0;
+  --texto-sistema: rgb(43, 43, 43);
+}
+
+.Flamengo {
+  --primeira-cor: #ff0000;
+  --segunda-cor: black;
+  --fonte-neutra: white;
+  --fonte-neutra-hover:black;
+  --posicoes: black;
+  --fonte-escura: #111111;
+  --texto-sistema: rgb(43, 43, 43);
+}
+
+.Mineiro {
+  --primeira-cor: black;
+  --segunda-cor: white;
+  --terceira-cor: black;
+  --fonte-neutra: white;
+  --fonte-neutra-hover: #e1ba0c;
+  --posicoes: #e1ba0c;
+  --fonte-escura: black;
+  --texto-sistema: rgb(43, 43, 43);
+}
+
+.Vasco-da-Gama {
+  --primeira-cor: black;
+  --segunda-cor: white;
+  --terceira-cor: black;
+  --fonte-neutra: white;
+  --fonte-neutra-hover: #b61919;
+  --posicoes: #b61919;
+  --fonte-escura: black;
+  --texto-sistema: rgb(43, 43, 43);
+}
+
+
+.Recife {
+  --primeira-cor: #a82023;
+  --segunda-cor: #fae91a;
+  --terceira-cor: black;
+  --fonte-neutra: #571010;
+  --fonte-neutra-hover: #e2be1e;
+  --posicoes: #a82023;
+  --fonte-escura: #a82023;
+  --texto-sistema: rgb(43, 43, 43);
+}
+
+.Sao-Paulo {
+  --primeira-cor: #ed2125;
+  --segunda-cor: black;
+  --fonte-neutra: white;
+  --fonte-neutra-hover:black;
+  --posicoes: black;
+  --fonte-escura: #ed2125;
+  --texto-sistema: rgb(43, 43, 43);
+}
+
+.Vitoria {
+  --primeira-cor: #ed2125;
+  --segunda-cor: black;
+  --fonte-neutra: white;
+  --fonte-neutra-hover:black;
+  --posicoes: black;
+  --fonte-escura: #ed2125;
+  --texto-sistema: rgb(43, 43, 43);
+}
+
+.Fluminense {
+  --primeira-cor: #006039 ;
+  --segunda-cor: #92052a;
+  --fonte-neutra: white;
+  --fonte-neutra-hover:black;
+  --posicoes: #92052a;
+  --fonte-escura: #92052a;
+  --texto-sistema: rgb(43, 43, 43);
+}
+
+.Fortaleza {
+  --primeira-cor: #40418C;
+  --segunda-cor: #ef4d37;
+  --fonte-neutra: white;
+  --fonte-neutra-hover:#ef4d37;
+  --posicoes: #ef4d37;
+  --fonte-escura: #ef4d37;
+  --texto-sistema: rgb(43, 43, 43);
+}
+
+.Gremio {
+  --primeira-cor: #0d80bf;
+  --segunda-cor: black;
+  --fonte-neutra: white;
+  --fonte-neutra-hover:#141414;
+  --posicoes: black;
+  --fonte-escura: black;
+  --texto-sistema: rgb(43, 43, 43);
+}
+
+.Mirassol {
+  --primeira-cor: #00633d;
+  --segunda-cor: #f8ea17;
+  --fonte-neutra: white;
+  --fonte-neutra-hover:#f8ea17;
+  --posicoes:   #00633d;
+  --fonte-escura: black;
+  --texto-sistema: rgb(43, 43, 43);
+}
+
+.Bragantino {
+  --primeira-cor: #232a4b;
+  --segunda-cor: #d10137;
+  --fonte-neutra: white;
+  --fonte-neutra-hover:#d10137;
+  --posicoes:   #d10137;
+  --fonte-escura: #d10137;
+  --texto-sistema: rgb(43, 43, 43);
+}
+
+.Santos {
+  --primeira-cor: black;
+  --segunda-cor: white;
+  --terceira-cor: black;
+  --fonte-neutra: white;
+  --fonte-neutra-hover: rgb(228, 228, 228);
+  --posicoes: black;
+  --fonte-escura: black;
+  --texto-sistema: rgb(43, 43, 43);
+}
+
+.Internacional {
+  --primeira-cor: #ed2125;
+  --segunda-cor: white;
+  --fonte-neutra: white;
+  --fonte-neutra-hover:black;
+  --posicoes: #ed2125;
+  --fonte-escura: #ed2125;
+  --texto-sistema: rgb(43, 43, 43);
+}
+
+
+.Palmeiras {
+  --primeira-cor: #006637;
+  --segunda-cor: white;
+  --fonte-neutra: white;
+  --fonte-neutra-hover:#2ba36b;
+  --posicoes: black;
+  --fonte-escura: #006637;
+  --texto-sistema: rgb(43, 43, 43);
+}
+
