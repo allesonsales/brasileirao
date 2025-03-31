@@ -15,7 +15,6 @@ import Footer from './components/footer'
 function App() {
   return (
     <>
-    <ErrorBoundary>
       <Provider>
         <ModalSelect>
         <BrowserRouter>
@@ -31,7 +30,6 @@ function App() {
         </BrowserRouter>
         </ModalSelect>
       </Provider>
-      </ErrorBoundary>
     </>
   )
 }

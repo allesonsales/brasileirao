@@ -16,7 +16,7 @@ const Estatisticas = () => {
         fetch('https://cors-anywhere.herokuapp.com/https://api.football-data.org/v4/competitions/BSA/scorers?season=2025', {
             method: 'GET',
             headers: {
-                'X-Auth-Token': 'b7b6db3407ea451aa7857595a5307f2b'
+                'X-Auth-Token': import.meta.env.VITE_API_KEY
             }
         })
         .then(response => response.json())
@@ -31,7 +31,7 @@ const Estatisticas = () => {
         fetch('https://cors-anywhere.herokuapp.com/https://api.football-data.org/v4/competitions/BSA/matches?season=2025', {
             method: 'GET',
             headers: {
-                'X-Auth-Token': 'b7b6db3407ea451aa7857595a5307f2b'
+                'X-Auth-Token': import.meta.env.VITE_API_KEY
             }
         })
         .then(response => response.json())

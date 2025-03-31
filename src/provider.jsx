@@ -22,7 +22,7 @@ const Provider = ({ children }) => {
         fetch('https://cors-anywhere.herokuapp.com/https://api.football-data.org/v4/competitions/BSA/teams', {
             method: 'GET',
             headers: {
-                'X-Auth-Token': 'b7b6db3407ea451aa7857595a5307f2b'
+                'X-Auth-Token': import.meta.env.VITE_API_KEY
             }
         })
         .then(response => response.json())
@@ -39,7 +39,7 @@ const fetchTime = () => {
         fetch(`https://cors-anywhere.herokuapp.com/https://api.football-data.org/v4/teams/${timeSelecionado.id}/matches/`, {
             method: 'GET',
             headers: {
-                'X-Auth-Token': 'b7b6db3407ea451aa7857595a5307f2b'
+                'X-Auth-Token': import.meta.env.VITE_API_KEY
             }
         })
         .then(response => response.json())
