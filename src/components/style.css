@@ -17,6 +17,10 @@
     color: white;
 }
 
+.footer span {
+    cursor: pointer;
+}
+
 
 
 @media (min-width: 768px) {
