@@ -1,6 +1,10 @@
 # Brasileirão na palma da mão
 
-![screenshot](/screenshot.png)
+[Link para o projeto](https://allesonsales.github.io/brasileirao)
+
+### IMPORTANTE: Talvez para acessar seja necessário liberar o proxy através do link: https://cors-anywhere.herokuapp.com é simples é só clicar em demo e pronto abrir o projeto.
+
+![screenshot](brasileirao/screenshot.png)
 
 ## Este projeto exibe dados do Campeonato Brasileiro de Futebol de forma personalizada, oferecendo aos fãs a possibilidade de acompanhar diversos aspectos do campeonato, como estatísticas, elenco, tabela de jogos e artilheiros. O projeto permite que o usuário escolha seu time e tenha uma experiência personalizada com base nas informações mais recentes do campeonato.
 
@@ -20,5 +24,3 @@
 - React Router
 - Framer motion
 - Proxy (cors-anywhere) para resolver problemas de CORS
-
-### IMPORTANTE: Talvez para acessar seja necessário liberar o proxy através do link: https://cors-anywhere.herokuapp.com é simples é só clicar em demo e pronto abrir o projeto.
