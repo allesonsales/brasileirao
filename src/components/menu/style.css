@@ -9,6 +9,7 @@ nav {
     left: 0;
     padding: 1rem 2rem;
     box-sizing: border-box;
+    border-radius: 0 0 15px 15px;
 }
 
 nav img {
@@ -27,7 +28,7 @@ nav ul {
 
 .menuMobile ul {
     position: absolute;
-    top: 88px;
+    top: 75px;
     right: -32px;
     background-color: var(--primeira-cor);
     display: flex;
