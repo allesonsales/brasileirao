@@ -1,6 +1,6 @@
 import { useContext, useState } from "react"
 import { providerContext } from "../provider"
-import { Link, replace } from "react-router-dom"
+import { Link } from "react-router-dom"
 import { useNavigate } from "react-router-dom"
 import './style.css'
 
@@ -17,12 +17,13 @@ const Footer = () => {
     }
 
     const handleReload = () => {
-            navigate('/brasileirao', {  replace: true })
+        navigate('/brasileirao', { replace: true })
+        window.location.reload()
     }
 
     return (
         <div className={`footer ${mouseEnter ? 'show' : 'hidden'}`} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-            <span onClick={handleReload}><i className="bi bi-incognito"></i>Trocar de time</span>
+            <span onClick={handleReload}><i class="bi bi-incognito"></i>Trocar de time</span>
         </div>
     )
 }
