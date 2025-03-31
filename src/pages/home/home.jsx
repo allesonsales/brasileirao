@@ -10,7 +10,6 @@ const Home = () => {
     useEffect(() => {
         if (timeConfirmado) {
             const className = timeSelecionado.shortName.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/\s+/g, '-')
-            console.log('Classe gerada:', className); 
             document.body.classList = ''
             document.body.classList.add(timeSelecionado.shortName.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/\s+/g, '-' ))
         }

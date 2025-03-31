@@ -23,7 +23,7 @@ const Footer = () => {
 
     return (
         <div className={`footer ${mouseEnter ? 'show' : 'hidden'}`} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-            <Link to="/" onClick={handleReload}><i class="bi bi-incognito"></i>Trocar de time</Link>
+            <Link to="/brasileirao" onClick={handleReload}><i class="bi bi-incognito"></i>Trocar de time</Link>
         </div>
     )
 }
