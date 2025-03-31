@@ -1,6 +1,6 @@
 import { useContext, useState } from "react"
 import { providerContext } from "../provider"
-import { Link } from "react-router-dom"
+import { Link, replace } from "react-router-dom"
 import { useNavigate } from "react-router-dom"
 import './style.css'
 
@@ -17,8 +17,7 @@ const Footer = () => {
     }
 
     const handleReload = () => {
-            navigate('/')
-            window.location.reload()
+            navigate('/brasileirao', {  replace: true })
     }
 
     return (
