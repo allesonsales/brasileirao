@@ -20,7 +20,7 @@ const Home = () => {
             <div className="backgroundHome">
                 <img src={timeSelecionado?.crest}/>
             </div>
-            <p>{timeConfirmado ? `Bem-vindo torcedor do ${timeSelecionado.name}!` : <Loading />}</p>
+            {timeConfirmado ? <p> `Bem-vindo torcedor do ${timeSelecionado.name}!`</p> : <Loading />}
             <div className="footerAviso">
                 <small>Se quiser trocar de time, é só passar o mouse aqui a qualquer momento...</small>
                 <i class="bi bi-hand-index"></i>
